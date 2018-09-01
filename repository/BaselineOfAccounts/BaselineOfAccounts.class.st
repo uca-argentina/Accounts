@@ -11,8 +11,8 @@ BaselineOfAccounts >> baseline: spec [
 	spec
 		for: #common
 		do: [ spec
-				package: #Accounts;
-				package: #'Accounts-Tests' with: [ spec requires: #('Accounts') ].
+				package: 'Accounts';
+				package: 'Accounts-Tests' with: [ spec requires: #('Accounts') ].
 
 			spec
 				group: 'default' with: #('deployment');
